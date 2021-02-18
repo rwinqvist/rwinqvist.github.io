@@ -6,30 +6,32 @@ author_profile: false
 sidebar:
   nav: "teaching-nav"
 toc: true
+toc_sticky: true
+toc_label: "Övningar"
 ---
 
-## Övning 1: Terminologi, stegsvar, poler
+### Övning 1: Terminologi, stegsvar, poler
 
-## Övning 2: Överföringsfunktioner, PID
+### Övning 2: Överföringsfunktioner, PID
 
-## Övning 3: Dämpning, rotort
+### Övning 3: Dämpning, rotort
 
-## Övning 4: **Datorövning**
+### Övning 4: **Datorövning**
 
-## Övning 5: Nyquistkriteriet
+### Övning 5: Nyquistkriteriet
 
-## Övning 6: Frekvensbeskrivning, Bodediagram
+### Övning 6: Frekvensbeskrivning, Bodediagram
 
-## Övning 7: **Datorövning**
+### Övning 7: **Datorövning**
 
-## Övning 8: Lead-lag, känslighet
+### Övning 8: Lead-lag, känslighet
 
-## Övning 9: Robusthet
+### Övning 9: Robusthet
 
-## Övning 10: Tillståndsåterkoppling, styrbarhet, observerbarhet
+### Övning 10: Tillståndsåterkoppling, styrbarhet, observerbarhet
 
-## Övning 11: **Datorövning**
+### Övning 11: **Datorövning**
 
-## Övning 12: Tillståndsåterkoppling, observatör
+### Övning 12: Tillståndsåterkoppling, observatör
 
-## Övning 13: Implementering, sampling
+### Övning 13: Implementering, sampling
