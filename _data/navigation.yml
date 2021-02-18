@@ -27,3 +27,18 @@ teaching-nav:
       - title: "Labbar"
         url: /el1000/el1000-labs/
 
+
+exp-el1000:
+  - title: EL1000 REGLERTEKNIK
+    url: /el1000/el1000-home/
+    children: 
+      - title: "Övningar"
+        url: /el1000/el1000-exercises/
+        children:
+          - title: "Övning 1"
+            url: /el1000/el1000-exercises/
+      - title: "Datorövningar"
+        url: /el1000/el1000-compexc/
+      - title: "Labbar"
+        url: /el1000/el1000-labs/
+
