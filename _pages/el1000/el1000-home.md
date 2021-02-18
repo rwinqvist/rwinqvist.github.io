@@ -1,5 +1,5 @@
 ---
-title: "EL1000 AUTOMATIC CONTROL"
+title: "EL1000 REGLERTEKNIK"
 layout: single
 permalink: /el1000/el1000-home/
 author_profile: false

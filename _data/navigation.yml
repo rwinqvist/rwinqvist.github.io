@@ -17,13 +17,13 @@ main:
   
 
 teaching-nav:
-  - title: EL1000 AUTOMATIC CONTROL
+  - title: EL1000 REGLERTEKNIK
     url: /el1000/el1000-home/
     children: 
       - title: "Övningar"
-        url: "https://github.com"
+        url: /el1000/el1000-exercises/
       - title: "Datorövningar"
-        url: "https://github.com"
+        url: /el1000/el1000-compexc/
       - title: "Labbar"
-        url: "https://github.com"
+        url: /el1000/el1000-labs/
 
