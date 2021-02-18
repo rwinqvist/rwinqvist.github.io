@@ -4,7 +4,11 @@ layout: single
 permalink: /teaching/
 author_profile: false
 sidebar:
-  nav: "teaching-nav"
+  - title: "EL1000 REGLERTEKNIK"
+    nav: "teaching-nav"
+  - title: "KEX"
+    nav: "teaching-nav"
+  
 ---
 
 Lorem ipsum
