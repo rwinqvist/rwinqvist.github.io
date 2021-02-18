@@ -13,11 +13,11 @@ main:
   - title: "Teaching"
     url: /teaching/
 
-  docs:
-    - title: Test
-      children: 
-        - title: "Test 1"
-          url: "https://github.com"
-        - title: "Test 2"
-          url: "https://github.com"
+docs:
+  - title: Test
+    children: 
+      - title: "Test 1"
+        url: "https://github.com"
+      - title: "Test 2"
+        url: "https://github.com"
 
