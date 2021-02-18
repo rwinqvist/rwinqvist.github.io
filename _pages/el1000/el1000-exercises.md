@@ -5,7 +5,6 @@ permalink: /el1000/el1000-exercises/
 author_profile: false
 sidebar:
   nav: "teaching-nav"
-classes: wide
 toc: true
 ---
 
