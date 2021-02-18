@@ -4,7 +4,11 @@ layout: single
 permalink: /el1000/el1000-home/
 author_profile: false
 sidebar:
-  nav: "exp-el1000"
+  - title: "test title"
+    nav: "teaching-nav"
+  - title: "test title 2"
+    nav: "teaching-nav"
+  
 ---
 
 Lorem ipsum lorem ipsum
