@@ -4,10 +4,7 @@ layout: single
 permalink: /el1000/el1000-home/
 author_profile: false
 sidebar:
-  - title: "EL1000 REGLERTEKNIK"
-    nav: "teaching-nav"
-  - title: "KEX"
-    nav: "teaching-nav"
+  nav: "teching-nav"
   
 ---
 
