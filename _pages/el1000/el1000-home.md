@@ -4,7 +4,7 @@ layout: single
 permalink: /el1000/el1000-home/
 author_profile: false
 sidebar:
-  nav: "teching-nav"
+  nav: "teaching-nav"
   
 ---
 
