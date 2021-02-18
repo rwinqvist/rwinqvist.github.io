@@ -5,26 +5,32 @@ permalink: /el1000/el1000-exercises/
 author_profile: false
 sidebar:
   nav: "teaching-nav"
+classes: wide
+toc: true
 ---
 
-## Övning 1
+## Övning 1: Terminologi, stegsvar, poler
 
-## Övning 2
+## Övning 2: Överföringsfunktioner, PID
 
-## Övning 3
+## Övning 3: Dämpning, rotort
 
-## Övning 4
+## Övning 4: **Datorövning**
 
-## Övning 5
+## Övning 5: Nyquistkriteriet
 
-## Övning 6
+## Övning 6: Frekvensbeskrivning, Bodediagram
 
-## Övning 7
+## Övning 7: **Datorövning**
 
-## Övning 8
+## Övning 8: Lead-lag, känslighet
 
-## Övning 9 
+## Övning 9: Robusthet
 
-## Övning 10
+## Övning 10: Tillståndsåterkoppling, styrbarhet, observerbarhet
 
-## Övning 11
+## Övning 11: **Datorövning**
+
+## Övning 12: Tillståndsåterkoppling, observatör
+
+## Övning 13: Implementering, sampling
