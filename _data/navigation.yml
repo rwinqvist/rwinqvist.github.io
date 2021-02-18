@@ -13,11 +13,14 @@ main:
   - title: "Teaching"
     url: /teaching/
 
-docs:
-  - title: Test
+teaaching-nav:
+  - title: EL1000 AUTOMATIC CONTROL
+    url: "https://github.com"
     children: 
-      - title: "Test 1"
+      - title: "Exercises"
         url: "https://github.com"
-      - title: "Test 2"
+      - title: "Computer exercises"
+        url: "https://github.com"
+      - title: "Labs"
         url: "https://github.com"
 

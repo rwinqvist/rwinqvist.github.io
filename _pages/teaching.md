@@ -1,10 +1,10 @@
 ---
 title: "Teaching"
-layout: archive
+layout: single
 permalink: /teaching/
 author_profile: false
 sidebar:
-  nav: "docs"
+  nav: "teaching-nav"
 ---
 
 Testing testing
