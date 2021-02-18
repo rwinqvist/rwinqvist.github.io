@@ -4,5 +4,5 @@ layout: categories
 permalink: /teaching/
 author_profile: false
 sidebar:
-    nav: docs
+    nav: "docs"
 ---
