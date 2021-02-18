@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "Rebecka Winqvist"
   avatar           : "/assets/images/avatar.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "PhD student in Automatic Control at KTH Royal Institute of Technology."
   location         : "Stockholm, Sweden"
   email            :
   links:
@@ -118,6 +118,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/rebecka-winqvist-08b8a7159/""
 
 # Site Footer
 footer:
