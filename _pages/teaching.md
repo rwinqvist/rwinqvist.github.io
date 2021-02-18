@@ -7,6 +7,4 @@ sidebar:
   nav: "teaching-nav"
 ---
 
-# Teaching
-
 Lorem ipsum
