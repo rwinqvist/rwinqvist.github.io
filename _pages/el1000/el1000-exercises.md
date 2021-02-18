@@ -1,6 +1,6 @@
 ---
 title: "EL1000 Övningar"
-layout: single
+layout: archive
 permalink: /el1000/el1000-exercises/
 author_profile: false
 sidebar:
