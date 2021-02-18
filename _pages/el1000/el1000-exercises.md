@@ -1,13 +1,13 @@
 ---
 title: "EL1000 Övningar"
-layout: archive
+layout: single
 permalink: /el1000/el1000-exercises/
 author_profile: false
 sidebar:
   nav: "teaching-nav"
 ---
 
-<!-- ## Övning 1: Terminologi, stegsvar, poler
+## Övning 1: Terminologi, stegsvar, poler
 Uppgifter: 2.10, 2.5, 2.11  
 Hemuppgifter: 2.9, 2.12
 
@@ -17,7 +17,7 @@ Hemuppgifter: 2.9, 2.12
 
 ## Övning 2: Överföringsfunktioner, PID
 Uppgifter: 3.24, 3.1  
-Hemuppgifter: 3.4 -->
+Hemuppgifter: 3.4
 
 [Övningsanteckningar + lösningsförslag]()  
 [Enbart lösningsförslag]()    
