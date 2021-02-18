@@ -20,10 +20,10 @@ teaching-nav:
   - title: EL1000 AUTOMATIC CONTROL
     url: /el1000/el1000-home/
     children: 
-      - title: "Exercises"
+      - title: "Övningar"
         url: "https://github.com"
-      - title: "Computer exercises"
+      - title: "Datorövningar"
         url: "https://github.com"
-      - title: "Labs"
+      - title: "Labbar"
         url: "https://github.com"
 
