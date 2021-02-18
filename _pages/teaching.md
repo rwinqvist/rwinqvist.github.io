@@ -1,8 +1,10 @@
 ---
-title: "Posts by Category"
-layout: categories
+title: "Teaching"
+layout: archive
 permalink: /teaching/
 author_profile: false
 sidebar:
-    nav: "docs"
+  nav: "docs"
 ---
+
+Testing testing
