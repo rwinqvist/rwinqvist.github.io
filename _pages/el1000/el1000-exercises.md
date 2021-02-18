@@ -1,11 +1,10 @@
 ---
-title: "EL1000 ÖVNINGAR"
+title: "EL1000 Övningar"
 layout: single
 permalink: /el1000/el1000-exercises/
 author_profile: false
 sidebar:
   nav: "teaching-nav"
-toc: true
 ---
 
 ## Övning 1
