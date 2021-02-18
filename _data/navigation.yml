@@ -10,12 +10,15 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+  - title: "Research"
+    url: /research/
   - title: "Teaching"
     url: /teaching/
+  
 
 teaaching-nav:
   - title: EL1000 AUTOMATIC CONTROL
-    url: "https://github.com"
+    url: /el1000/el1000-home/
     children: 
       - title: "Exercises"
         url: "https://github.com"
