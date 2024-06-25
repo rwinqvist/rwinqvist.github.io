@@ -378,6 +378,10 @@ ul.task-list input[type="checkbox"] {
   padding-right: 0.1em;
   padding-left: 0.1em;
   color: var(--global-text-color);
+
+    &:hover {
+    color: var(--global-theme-color);
+  }
 }
 
 // Social (bottom)
