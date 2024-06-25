@@ -14,60 +14,65 @@ layout: default
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
-  <article>
-  <div class="author-wrapper"></div>
+  <div class="author-wrapper">
+    <div class="author-info">
       {% if page.profile %}
-        <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-          {% if page.profile.image %}
-            {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-            {% if page.profile.image_circular %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-            {% else %}
-              {% assign profile_image_class = 'img-fluid z-depth-1
-        rounded' %}
-            {% endif %}
-            {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-        30vw, 95vw"{% endcapture %}
-            {%
-              include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-              cache_bust=true
-            %}
+      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+        {% if page.profile.image %}
+          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+          {% if page.profile.image_circular %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+          {% else %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
           {% endif %}
-          {% if page.profile.more_info %}
-            <div class="more-info">{{ page.profile.more_info }}</div>
+          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+          {%
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            cache_bust=true
+          %}
+        {% endif %}
+        {% if page.profile.bio %}
+              <div class="more-info">{{ page.profile.bio }}</div>
+            {% endif %}
+            {% if page.profile.more_info %}
+              <div class="more-info">{{ page.profile.more_info }}</div>
+        {% endif %}
+
+        <div class="author-social">
+          <!-- Email -->
+          {% if site.email %}
+            <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fa-solid fa-envelope author-info-icon"></i></a>
           {% endif %}
 
-          <div class="author-social">
-            <!-- Email -->
-            {% if site.email %}
-              <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fa-solid fa-envelope author-info-icon"></i></a>
-            {% endif %}
+          <!-- Google scholar -->
+          {% if page.profile.googlescholar %}
+            <a href="{{ page.profile.googlescholar}}"><i class="ai ai-google-scholar author-info-icon"></i></a>
+          {% endif %}
 
-            <!-- Google scholar -->
-            {% if page.profile.googlescholar %}
-              <a href="{{ page.profile.googlescholar }}"><i class="ai ai-google-scholar author-info-icon"></i></a>
-            {% endif %}
-
-            <!-- Github -->
-            {% if site.github_username %}
-                <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fa-brands fa-github author-info-icon"></i></a>
-            {% endif %}
+          <!-- Github -->
+          {% if site.github_username %}
+              <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fa-brands fa-github author-info-icon"></i></a>
+          {% endif %}
 
 
-            <!-- LinkedIn -->
-            {% if page.profile.linkedin %}
-              <a href="{{ page.profile.linkedin }}" title="LinkedIn"><i class="fa-brands fa-linkedin author-info-icon"></i></a>
-            {% endif %}
-          </div>
-
+          <!-- LinkedIn -->
+          {% if page.profile.linkedin %}
+            <a href="{{ page.profile.linkedin }}" title="LinkedIn"><i class="fa-brands fa-linkedin author-info-icon"></i></a>
+          {% endif %}
         </div>
-      {% endif %}
-      <div class="clearfix">{{ content }}</div>
+    </div>
+
+    {% endif %}
+     <div class="clearfix">{{ content }}</div>
+    
+    </div>
     </div>
 
     <hr>
 
     <div class="main-content">
+    
+   
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>
@@ -92,7 +97,8 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
-    <!-- Social -->
+     
+     <!-- Socials will be included if variable is set to true in about.md -->
     {% if page.social %}
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
@@ -102,8 +108,8 @@ layout: default
     {% endif %}
 
     {% if site.newsletter.enabled and site.footer_fixed %}
-      {% include scripts/newsletter.liquid center=true %}
+      {% include scripts/newsletter.liquid icon-pad-right=true %}
     {% endif %}
+
+      </div>
     </div>
-  </article>
-</div>

@@ -189,6 +189,7 @@ ul.task-list input[type="checkbox"] {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
+    text-align: center;
 
     p {
       display: inline-block;
@@ -386,6 +387,31 @@ ul.task-list input[type="checkbox"] {
 
   .contact-icons {
     font-size: 4rem;
+
+    a {
+      i::before {
+        color: var(--global-text-color);
+        transition-property: all 0.2s ease-in-out;
+      }
+
+      &:hover {
+        i::before {
+          color: var(--global-theme-color);
+        }
+      }
+    }
+  }
+
+  .contact-note {
+    font-size: 0.8rem;
+  }
+}
+
+.author-social {
+  text-align: center;
+
+  .contact-icons {
+    font-size: 10rem;
 
     a {
       i::before {
