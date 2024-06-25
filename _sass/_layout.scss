@@ -38,6 +38,19 @@ body.sticky-bottom-footer {
   }
 }
 
+.author-wrapper {
+  display: flex;
+  margin-bottom: 2em;
+  margin-top: 1.5em;
+}
+
+.main-content {
+  flex: 1;
+  padding: 10px;
+  text-align: left; /* Aligns the main content to the right */
+  margin-top: 1.5rem;
+}
+
 // TODO: redefine content layout.
 
 /******************************************************************************

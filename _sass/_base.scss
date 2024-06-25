@@ -367,6 +367,18 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Icons
+.icon-pad-right {
+  padding-right: 0.5em;
+}
+
+.author-info-icon {
+  font-size: 2rem;
+  padding-right: 0.1em;
+  padding-left: 0.1em;
+  color: var(--global-text-color);
+}
+
 // Social (bottom)
 
 .social {
