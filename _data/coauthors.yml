@@ -1,33 +1,33 @@
-"lourenco":
-  - firstname: ["Inês", "Ines", "I."]
-    url: https://ineslo.wixsite.com/mywebpage
+"adams":
+  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
+    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 
-"quinzan":
-  - firstname: ["Francesco", "F."]
-    url: https://www.cs.ox.ac.uk/people/francesco.quinzan/
+"podolsky":
+  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
+    url: https://en.wikipedia.org/wiki/Boris_Podolsky
 
-"wahlberg":
-  - firstname: ["Bo", "B."]
-    url: https://www.kth.se/profile/bo
+"rosen":
+  - firstname: ["Nathan", "N."]
+    url: https://en.wikipedia.org/wiki/Nathan_Rosen
 
-"rojas":
-  - firstname: ["Cristian", "Cristian R.", "C. R."]
-    url: https://www.kth.se/profile/crro
+"bach":
+  - firstname: ["Johann Sebastian", "J. S."]
+    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
 
   - firstname: ["Carl Philipp Emanuel", "C. P. E."]
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
 
-"tumova":
-  - firstname: ["Jana", "J."]
-    url: https://www.kth.se/profile/tumova
+"przibram":
+  - firstname: ["Karl"]
+    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
 
-"gautier":
-  - firstname: ["Anna", "A."]
-    url: https://www.kth.se/profile/annagau
+"schrodinger":
+  - firstname: ["Erwin"]
+    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
 
-"venkitaraman":
-  - firstname: ["Arun", "A."]
-    url: https://scholar.google.se/citations?user=2GoojMgAAAAJ&hl=en
+"lorentz":
+  - firstname: ["Hendrik Antoon"]
+    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
 
 "planck":
   - firstname: ["Max"]
