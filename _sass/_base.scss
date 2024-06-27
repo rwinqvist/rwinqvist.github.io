@@ -764,8 +764,12 @@ footer.sticky-bottom {
         }
 
         > em {
-          border-bottom: 1px solid;
+          // my name 
+          // author
+          //border-bottom: 1px solid;
+          font-weight: bold;
           font-style: normal;
+          color: var(--global-theme-color);
         }
 
         > span.more-authors {
