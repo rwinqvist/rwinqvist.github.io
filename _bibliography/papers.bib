@@ -36,6 +36,7 @@
   archivePrefix={arXiv},
   url={https://arxiv.org/abs/2005.04112},
   selected={true},
+  bibtex_show={true},
 }
 
 @article{WINQVIST20217,
@@ -52,7 +53,19 @@
   url = {https://www.sciencedirect.com/science/article/pii/S2405896321011009},
   author = {Rebecka Winqvist and Arun Venkitaraman and Bo Wahlberg},
   keywords = {Identification for control, data-driven control, neural networks relevant to control, identification, input, excitation design, model predictive control, modeling for control optimization},
-  abstract = {This paper investigates the problem of controller identification given the data from a linear quadratic Model Predictive Controller (MPC) with constraints. We propose an approach for learning MPC that explicitly uses the gradient information in the training process. This is motivated by the observation that recent differentiable convex optimization MPC solvers can provide both the optimal feedback law from the state to control input as well as the corresponding gradient. As a proof of concept, we apply this approach to explicit MPC (eMPC), for which the feedback law is a piece-wise affine function of the state, but the number of pieces grows rapidly with the state dimension. Controller identification can here be used to find an approximate low complexity functional approximation of the controller. The eMPC is modelled using a Neural Network (NN) with Rectified Linear Units (ReLUs), since such NNs can represent any piece-wise affine function. A key motivation is to replace on-line solvers with neural networks to implement MPC and to simplify the evaluation of the function in larger input dimensions. We also study experimental design and model evaluation in this framework, and propose a hit-and-run sampling algorithm for input design. The proposed algorithms are illustrated and numerically evaluated on a second order MPC problem.}
+  abstract = {This paper investigates the problem of controller identification given the data from a linear quadratic 
+  Model Predictive Controller (MPC) with constraints. We propose an approach for learning MPC that explicitly 
+  uses the gradient information in the training process. This is motivated by the observation that recent 
+  differentiable convex optimization MPC solvers can provide both the optimal feedback law from the state to 
+  control input as well as the corresponding gradient. As a proof of concept, we apply this approach to explicit MPC (eMPC), 
+  for which the feedback law is a piece-wise affine function of the state, but the number of pieces grows rapidly 
+  with the state dimension. Controller identification can here be used to find an approximate low complexity functional 
+  approximation of the controller. The eMPC is modelled using a Neural Network (NN) with Rectified Linear Units (ReLUs), 
+  since such NNs can represent any piece-wise affine function. A key motivation is to replace on-line solvers with neural 
+  networks to implement MPC and to simplify the evaluation of the function in larger input dimensions. We also study 
+  experimental design and model evaluation in this framework, and propose a hit-and-run sampling algorithm for input design. 
+  The proposed algorithms are illustrated and numerically evaluated on a second order MPC problem.},
+  bibtex_show={true},
 }
 
 
@@ -79,20 +92,32 @@
   pages={6806-6812},
   keywords={Estimation error;Parameter estimation;Human-robot interaction;Reinforcement learning;Robots},
   doi={10.1109/CDC49753.2023.10384158},
-  selected={true}
+  selected={true},
+  bibtex_show={true},
 }
 
 
-@INPROCEEDINGS{9992858,
+@INPROCEEDINGS{lourenco2022,
   abbr={CDC},
   author={Lourenço, Inês and Winqvist, Rebecka and Rojas, Cristian R. and Wahlberg, Bo},
   booktitle={2022 IEEE 61st Conference on Decision and Control (CDC)}, 
   title={A Teacher-Student Markov Decision Process-based Framework for Online Correctional Learning}, 
+  abstract={A classical learning setting typically concerns an agent/student who collects data, or observations, 
+            from a system in order to estimate a certain property of interest. Correctional learning is a type of 
+            cooperative teacher-student framework where a teacher, who has partial knowledge about the system, 
+            has the ability to observe and alter (correct) the observations received by the student in order to 
+            improve the accuracy of its estimate. In this paper, we show how the variance of the estimate of the 
+            student can be reduced with the help of the teacher. We formulate the corresponding online 
+            problem – where the teacher has to decide, at each time instant, whether or not to change the observations 
+            due to a limited budget – as a Markov decision process, from which the optimal policy is derived using 
+            dynamic programming. We validate the framework in numerical experiments, and compare the optimal online policy with the one from the batch setting.},
   year={2022},
   volume={},
   number={},
   pages={3456-3461},
-  doi={10.1109/CDC51059.2022.9992858}
+  doi={10.1109/CDC51059.2022.9992858},
+  selected={true},
+  bibtex_show={true},
   }
 
 
@@ -120,7 +145,8 @@
   pages="303--315",
   abstract="Musical instrument education has typically faced challenges in providing students with a cost-efficient and long-term solution for personalised tutoring. To address these challenges, we propose a musical instrument tutor robot for students learning the recorder, called instruMentor. Equipped with robotic hands and a multimodal interface, the robot interacts with users by playing the recorder and demonstrating in real-time the proper handling of the instrument. A pilot study was conducted to investigate the effectiveness of a robot tutor for instrument learning. Experimental results suggest that instruMentor is successful at teaching the recorder and is positively appreciated by users, showing promise for the future coupling of music tutoring and social robots.",
   isbn="978-3-030-23807-0",
-  annotation="* Equal contribution"
+  annotation="* Equal contribution",
+  bibtex_show={true},
 }
 
 
